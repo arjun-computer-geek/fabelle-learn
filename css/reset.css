@@ -53,6 +53,9 @@ a {
 button{
     cursor: pointer;
 }
+button:focus{
+    outline: none;
+}
 .fa-star, .fa-star-o, .fa-star-half-o, .fa-star-half-empty{
     color: var(--love-light);
 }
