@@ -4,7 +4,7 @@
 }
 .login-main .form-container {
     margin-top: 10rem;
-    background: #fff;
+    background: var(--gray-00);
     width: 20rem;
     height: 28rem;
     position: relative;
@@ -18,7 +18,7 @@
 .login-main .form-container span {
     font-weight: bold;
     padding: 0 .5em;
-    color: #555;
+    color: var(--gray-75);
     cursor: pointer;
     width: 6.25rem;
     display: inline-block;
@@ -41,7 +41,7 @@
     height: 1.8rem;
     margin: .6em 0;
     padding: 0 .6em;
-    border: 1px solid #ccc;
+    border: 1px solid var(--gray-15);
 }
 
 .login-main form .btn {
@@ -58,7 +58,7 @@
     border-color: transparent;
 }
 .login-main form .btn-outline{
-    border: 2px solid var(--gray-85);
+    border: 1px solid var(--gray-85);
     background-color: transparent;
     color: var(--gray-90);
 }
