@@ -1,5 +1,11 @@
 @import url('./reset.css');
-
+.nav{
+    background-color: var(--gray-05);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
 .my-brand {
     flex-basis: 20%;
 }
@@ -19,6 +25,7 @@
 
 main {
     padding: 0 2em;
+    min-height: 100vh;
 }
 
 main section {
@@ -60,17 +67,16 @@ main .popular-courses {
     flex-direction: column;
     align-items: center;
 }
-
 main section h2 {
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid var(--gray-90);
 }
 
 main .popular-courses .courses-container {
-    height: 90vh;
+    height: 80vh;
     width: 100%;
     display: flex;
     gap: 2rem;
-    padding: 1.5em;
+    padding: 1em;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;

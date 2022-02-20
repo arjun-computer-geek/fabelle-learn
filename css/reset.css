@@ -53,3 +53,9 @@ a {
 button{
     cursor: pointer;
 }
+.fa-star, .fa-star-o, .fa-star-half-o, .fa-star-half-empty{
+    color: var(--love-light);
+}
+.card-container .product-add-to-cart-btn{
+    background-color: var(--love-dark);
+}
