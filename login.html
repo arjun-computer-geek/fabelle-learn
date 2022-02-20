@@ -53,8 +53,8 @@
     <main class="login-main">
         <div class="form-container">
             <div class="form-btn">
-                <span onclick="register()">Register</span>
-                <span onclick="login()">Login</span>
+                <span id="register-toggler">Register</span>
+                <span id="login-toggler">Login</span>
                 <hr id="indicator">
             </div>
 
@@ -109,6 +109,8 @@
         const loginForm = document.getElementById('loginForm');
         const regForm = document.getElementById('regForm');
         const indicator = document.getElementById('indicator');
+        const loginToggler = document.getElementById('login-toggler');
+        const registerToggler = document.getElementById('register-toggler');
 
         function login(){
             regForm.style.transform = "translateX(0)";
@@ -120,6 +122,9 @@
             loginForm.style.transform = "translateX(18.75rem)";
             indicator.style.transform = "translateX(0px)";
         }
+
+        loginToggler.addEventListener('click', login);
+        registerToggler.addEventListener('click', register);
     </script>
 </body>
 
